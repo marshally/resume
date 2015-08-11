@@ -19,7 +19,7 @@ In my spare time, I am an amateur chef, lover of costume parties, and a licensed
 ### Operations / Platform Engineering at Code Climate
 > July 2014 - Present (1 year 2 months)
 
-Code Climate maintains an automated code review system that analyzes more than 700 billion lines of source code per day. I build new features, keep the servers running, and participate in Code Reviews using GitHub Pull Requests and Slack.
+Code Climate maintains an automated code review system that analyzes more than -700 billion lines of source code per day- repetitive. I build new features, keep the servers running, and participate in Code Reviews using GitHub Pull Requests and Slack.
 
 #### Duties
 
