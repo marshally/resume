@@ -109,7 +109,7 @@ _Request Radio_ was an ambitious Yahoo! Music skunkworks project to create perso
 
 Even though the Request Radio project was shelved, the CD ripping software that we created **encoded hundreds of thousands of songs** for _Yahoo! Launchcast_'s music library.
 
-##### Project lead for **integrating Yahoo’s Unix systems and broadcast.com Windows systems** post-acquisition.
+##### Project lead for integrating Yahoo’s Unix systems and broadcast.com Windows systems post-acquisition.
 
 
 ### Team Lead at Broadcast.com
