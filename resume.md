@@ -70,7 +70,7 @@ At DDDS, I built a web application designed to work side-by-side with their exis
  with the colocation facility.
 * Racking the servers in the data center, down to plugging in their power and
  network cables.
-* New feature development, maintenance, 24x7 on-call support.
+* Developing new features, providing maintenance and 24x7 on-call support.
 
 ### Engineering Manager at Yahoo! Inc
 > September 2005 - November 2006 (1 year 3 months)
@@ -85,12 +85,12 @@ Bootstrapped direct mail startup sending customized automotive maintenance remin
 ### Vice President of Software Development at Hanson Robotics
 > February 2004 - September 2004 (8 months)
 
-*Hanson Robotics* builds lifelike androids that blur the lines between human and robot. I was one of the first five team members. We built prototypes, wrote grant proposals, created business models, and presented to clients.
+*Hanson Robotics* builds lifelike androids that blur the lines between human and robot. I was one of the first five team members. We [I] built prototypes, wrote grant proposals, created business models, and presented to clients.
 
 ### Technology Analyst at Hunt Financial Ventures
 > March 2003 - February 2004 (1 year)
 
-Technology lead for a multi-strategy family of hedge funds which managed over $1 billion in client assets. Set annual technology goals and negotiated budgets with upper management.
+Technology lead for a multi-strategy family of hedge funds which managed over $1 billion in client assets. Set annual technology goals and negotiated budgets with upper management. [Did you pick a software for them? I can't remember]
 
 ### Analyst Intern at Crestmont Holdings
 > June 2002 - August 2002 (3 months)
@@ -204,4 +204,4 @@ Update: Grrwl has been sold.
 > B.A., Computer Science, 1992 - 1996
 
 ## Interests
-cooking, camping, gadgets, and fancy dress parties, fireworks
+cooking, camping, gadgets, fancy dress parties, and fireworks
