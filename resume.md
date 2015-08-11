@@ -59,7 +59,7 @@ As head technologist, I nurtured Downtempo from a product/design focused boutiqu
 
 * Broke down large projects into detailed plans.
 * Remotely managed a diverse group of freelancers.
-* Client/expectation management.
+* Managed client expectations.
 
 ### Lead Developer at Digital Drilling Data Systems
 > November 2006 - April 2009 (2 years 6 months)
