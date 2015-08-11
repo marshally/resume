@@ -55,7 +55,7 @@ Scalability and Distributed Systems Engineer for *Words with Friends*, the iPhon
 ### Chief Technology Officer at Downtempo
 >May 2009 - April 2010 (1 year)
 
-As head technologist, I helped Downtempo grow from a product/design focused boutique consulting firm into a company that could deliver fully functional web applications.
+As head technologist, I nurtured Downtempo from a product/design focused boutique consulting firm into a company that could deliver fully functional web applications.
 
 * Broke down large projects into detailed plans.
 * Remotely managed a diverse group of freelancers.
