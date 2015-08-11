@@ -105,7 +105,7 @@ _Request Radio_ was an ambitious Yahoo! Music skunkworks project to create perso
 
 * **Robotically control 200 disc CD ripper stations**.
 * Annotated tracks with metadata with **barcode scanners**, matching UPC codes to the CDDB entries of tracks while they were being transcoded.
-* Convert raw `.WAV` files into a variety of different streaming formats.
+* Transcode raw `.WAV` files into a variety of different streaming formats.
 
 Even though the Request Radio project was shelved, the CD ripping software that we created **encoded hundreds of thousands of songs** for _Yahoo! Launchcast_'s music library.
 
