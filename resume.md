@@ -33,7 +33,7 @@ Code Climate maintains an automated code review system that analyzes more than 9
 ### Owner at Yount Labs
 > April 2010 - June 2014 (4 years 3 months)
 
-Yount Labs is my consulting company. I help companies implement and improve agile development processes, scale their server footprints with automated deployment, break monolithic apps up into services, and help align product strategy with technology.
+Yount Labs provides consulting services to help companies implement and improve agile development processes, scale their server footprints with automated deployment, break monolithic apps up into services, and help align product strategy with technology.
 
 As the owner of my company, I've learned to:
 
