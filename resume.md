@@ -203,4 +203,4 @@ Update: Grrwl has been sold.
 > B.A., Computer Science, 1992 - 1996
 
 ## Interests
-cooking, camping, gadgets, and fancy dress parties, fireworks
+cooking, camping, gadgets, fancy dress parties, and fireworks
