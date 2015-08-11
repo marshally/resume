@@ -39,7 +39,7 @@ As the owner of my company, I've learned to:
 
 * Be persuasive and sell myself.
 * Take (and mitigate) big risks.
-* Completely own projects from start to finish (from the fun stuff to taking out the trash).
+* Completely own projects from start to finish, from the fun stuff to taking out the trash.
 
 ### Principal Software Engineer at Zynga
 > May 2011 - October 2012 (1 year 6 months)
