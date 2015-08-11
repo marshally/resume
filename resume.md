@@ -8,7 +8,7 @@
 
 I'm a scalability/distributed systems engineer who loves working on large scale, rapidly growing products that touch lives. I build top performing software teams and fine tune agile development processes.
 
-I am currently at _Code Climate_. Our team builds distributed systems that **analyze 700 billion lines of source code** per day.
+I am currently at _Code Climate_. Our team builds distributed systems that **analyze 900 billion lines of source code** per day.
 
 Before that I helped the #1 mobile _With Friends_ game series scale to **3,000 db writes per second** (100k Rails requests per second) and was the lead engineer at Broadcast.com when it was the biggest audio/video streaming site (and the **17th largest site by DAU**). I'm a co-organizer of the scalability-focused Big Ruby Conference.
 
@@ -19,7 +19,7 @@ In my spare time, I am an amateur chef, lover of costume parties, and a licensed
 ### Operations / Platform Engineering at Code Climate
 > July 2014 - Present (1 year 2 months)
 
-Code Climate maintains an automated code review system that analyzes more than 700 billion lines of source code per day. I build new features, keep the servers running, and participate in Code Reviews using GitHub Pull Requests and Slack.
+Code Climate maintains an automated code review system that analyzes more than 900 billion lines of source code per day. I build new features, keep the servers running, and participate in Code Reviews using GitHub Pull Requests and Slack.
 
 #### Duties
 
