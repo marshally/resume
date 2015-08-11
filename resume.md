@@ -26,14 +26,14 @@ Code Climate maintains an automated code review system that analyzes more than -
 * Built custom instrumentation (`statsd`, `Librato`) and alerting (`PagerDuty`, `NewRelic`) systems based on **hundreds of custom metrics** that give deep insight into the Platform's performance characteristics.
 * Automated deployment with `Ansible` to more than a dozen different server types.
 * Used `rollout` feature toggles and the `scientist` gem to safely test and deploy behavior-neutral refactorings.
-* Delivered *Refactoring Rails* workshop to Garden City Rubyconf 2015. Roles
-* Sales Engineer for **Code Climate Enterprise**, a self hosted version built on `Docker`.
-* Platform Team Captain for a small remote engineering team that took over an existing code base from busy founder-engineers.
+* Delivered *Refactoring Rails* workshop to Garden City Rubyconf 2015. Roles <---
+* Sales Engineer for **Code Climate Enterprise**, a self-hosted version built on `Docker`.
+* Platform Team Captain for a small remote engineering team that took ownewrship of an existing code base to relieve busy founder-engineers.
 
 ### Owner at Yount Labs
 > April 2010 - June 2014 (4 years 3 months)
 
-Yount Labs provides consulting services to help companies implement and improve agile development processes, scale their server footprints with automated deployment, break monolithic apps up into services, and help align product strategy with technology.
+Yount Labs provided consulting services to help companies implement and improve agile development processes, scale their server footprints with automated deployment, break monolithic apps up into services, and help align product strategy with technology.
 
 As the owner of my company, I've learned to:
 
@@ -54,11 +54,11 @@ Scalability and Distributed Systems Engineer for *Words with Friends*, the iPhon
 ### Chief Technology Officer at Downtempo
 >May 2009 - April 2010 (1 year)
 
-As head technologist, I helped Downtempo grow from a product/design focused boutique consulting firm into a company that could deliver fully functional web applications.
+As head technologist, I nurtured Downtempo from a product/design focused boutique consulting firm into a company that could deliver fully functional web applications.
 
 * Broke down large projects into detailed plans.
 * Remotely managed a diverse group of freelancers.
-* Client/expectation management.
+* Client/expectation management. <--- reword
 
 ### Lead Developer at Digital Drilling Data Systems
 > November 2006 - April 2009 (2 years 6 months)
