@@ -66,12 +66,10 @@ As head technologist, I helped Downtempo grow from a product/design focused bout
 
 At DDDS, I built a web application designed to work side-by-side with their existing desktop client directional drilling software. As the **only developer, sysadmin, and operations engineer**, I did everything required to get the site up including:
 
-* Writing and testing the code.
-* Purchasing servers and negotiating
- with the colocation facility.
-* Racking the servers in the data center, down to plugging in their power and
- network cables.
-* New feature development, maintenance, 24x7 on-call support.
+* Wrote and tested code.
+* Purchased servers and negotiated with the colocation facility.
+* Racked the servers in the data center, plugging in their power and network cables.
+* Continued new feature development, maintenance, 24x7 on-call support.
 
 ### Engineering Manager at Yahoo! Inc
 > September 2005 - November 2006 (1 year 3 months)
