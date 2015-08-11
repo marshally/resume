@@ -19,7 +19,7 @@ In my spare time, I am an amateur chef, lover of costume parties, and a licensed
 ### Operations / Platform Engineering at Code Climate
 > July 2014 - Present (1 year 2 months)
 
-Code Climate maintains an automated code review system that analyzes more than -700 billion lines of source code per day- repetitive. I build new features, keep the servers running, and participate in Code Reviews using GitHub Pull Requests and Slack.
+Code Climate maintains an automated code review system that analyzes more than -700 billion lines of source code per day- {repetitive}. I build new features, keep the servers running efficiently, and participate in Code Reviews using GitHub Pull Requests and Slack.
 
 #### Duties
 
@@ -33,13 +33,13 @@ Code Climate maintains an automated code review system that analyzes more than -
 ### Owner at Yount Labs
 > April 2010 - June 2014 (4 years 3 months)
 
-Yount Labs is my consulting company. I help companies implement and improve agile development processes, scale their server footprints with automated deployment, break monolithic apps up into services, and help align product strategy with technology.
+Yount Labs provides consulting services to help companies implement and improve agile development processes, scale their server footprints with automated deployment, break monolithic apps up into services, and help align product strategy with technology.
 
 As the owner of my company, I've learned to:
 
 * Be persuasive and sell myself.
 * Take (and mitigate) big risks.
-* Completely own projects from start to finish (from the fun stuff to taking out the trash).
+* Completely own projects from start to finish, from the fun stuff to taking out the trash.
 
 ### Principal Software Engineer at Zynga
 > May 2011 - October 2012 (1 year 6 months)
@@ -47,7 +47,7 @@ As the owner of my company, I've learned to:
 Scalability and Distributed Systems Engineer for *Words with Friends*, the iPhone's most downloaded game of all time. With a small, scrappy team, we averaged more than 1MM happy daily players per server engineer.
 
 * Feature development and day-to-day support of massive `Ruby on Rails` infrastructure. 3rd parties such as appdata.com estimated *With Friends* franchise to support 12.3 million DAU / 29.7 million MAU.
-* Lead a project to replace a sharded `MySQL` datastore with `Membase`, while accepting 3,000 database writes per second.
+* Lead a project to replace a sharded `MySQL` datastore with `Membase`, while accepting 3,000 database writes per second during the replacement period.
 * Created Leadership Skills Training program to help talented individual contributors grow into successful game directors.
 * Key contributor to New Product Lifecycle spec, which guided our process for developing "great ideas" into live *With Friends* games.
 
