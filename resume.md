@@ -187,7 +187,7 @@ On-demand information to *any* mobile phone. Grrwl allows anyone in South Africa
 
 Grrwl can provide information services such as breaking news, transport schedules, sports scores, etc. Sending requested information over SMS means that we can reach 100% of the mobile phones in South Africa, as oppose to requiring a data-enabled phone. In future, we can provision "Grrwl lines" for brands and agencies, and create platforms for surveys and quizzes. By using the phone number as a user ID, we can build up user profiles from usage, and target advertising accordingly, and by avoiding spam / unsolicited messages, we can build user trust in a low-trust environment. A proof-of-concept has been built using Twilio and Heroku, and we're currently validating the business model.
 
-Update: Grrwl has been sold.
+Update: Grrwl was sold in 2014.
 
 ## Certifications
 
