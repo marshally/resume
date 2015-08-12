@@ -53,7 +53,7 @@ Scalability and Distributed Systems Engineer for *Words with Friends*, the iPhon
 * Lead a project to replace a 256 node sharded `MySQL` datastore with a `Membase` cluster, while accepting 3,000 database writes per second.
 * Created **Leadership Skills Training** program to help talented individual contributors grow into successful game directors.
 * Key contributor to **New Product Lifecycle** spec, which guided our process for developing "great ideas" into live *With Friends* games.
-* Created **Candidate Evaluation Criteria**, based on the studio's Core Values, to bring structure to what was previously an _ad hoc_ "thumbs up/thumbs down" hiring system.
+* Worked with entire studio to draft **Candidate Evaluation Criteria**, based on the studio's Core Values, to bring structure and rigor to what was previously an _ad hoc_ "thumbs up/thumbs down" hiring system.
 
 ### Chief Technology Officer at Downtempo
 >May 2009 - April 2010 (1 year)
