@@ -24,11 +24,14 @@ Code Climate maintains an automated code review system that analyzes more than 9
 #### Duties
 
 * Built custom instrumentation (`statsd`, [Librato](https://librato.com) and alerting ([PagerDuty](http://pagerduty.com), [NewRelic](http://newrelic.com) systems based on **hundreds of custom metrics** that give deep insight into the Platform's performance characteristics.
-* Automated deployment with [ansible](http://ansible.com) to more than a dozen different server types.
+* Automated deployment with [ansible](http://ansible.com) and [Docker](http://docker.com) to more than a dozen different server types.
 * Used `rollout` feature toggles and the `scientist` gem to safely test and deploy behavior-neutral refactorings.
-* Delivered *Refactoring Rails* workshop to Garden City Rubyconf 2015. Roles
-* Sales Engineer for **Code Climate Enterprise**, a self hosted version built on [Docker](http://docker.com).
+* Delivered *Refactoring Rails* workshop to Garden City Rubyconf 2015.
+ 
+#### Roles
+
 * Platform Team Captain for a small remote engineering team that took over an existing code base from busy founder-engineers.
+* Sales Engineer for **Code Climate Enterprise**, a self hosted version built on [Docker](http://docker.com).
 
 ### Owner at Yount Labs
 > April 2010 - June 2014 (4 years 3 months)
