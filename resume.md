@@ -136,9 +136,7 @@ Lead software developer for the **17th largest website on the internet** (and th
 ### Big Ruby Conference, co-organizer
 > February 2013 to February 2014
 
-[Big Ruby](http://bigrubyconf.com) is a conference focused on the use of Ruby in large organizations, infrastructures, userbases, and teams. If your Ruby runs hundreds of servers, handles millions of users, and you count each and every millisecond, this is the conference for you.
-
-2013's videos received over 65K views on YouTube. In 2014 we had attendees from all over the world.
+[Big Ruby](http://bigrubyconf.com) is a conference focused on the use of Ruby in large organizations, infrastructures, userbases, and teams. If your Ruby runs hundreds of servers, handles millions of users, and you count each and every millisecond, this is the conference for you. 2013's videos received over 65K views on YouTube. In 2014 we had attendees from all over the world.
 
 ### Pyro Team Lead, Myschievia 2014
 > October 2014
