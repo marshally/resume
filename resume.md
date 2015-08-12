@@ -135,9 +135,9 @@ Lead software developer for the **17th largest website on the internet** (and th
 2013's videos received over 65K views on YouTube. In 2014 we had attendees from all over the world.
 
 ### Pyro Team Lead, Myschievia 2014
-> October 2014 to Present
+> October 2014
 
-The Pyro Team is responsible for the fiery destruction of the [War Machine](http://www.coroflot.com/DillonZwick/The-War-Machine), a 24'x16'x15' wooden sculpture of a tank.
+The Pyro Team was responsible for the fiery destruction of the [War Machine](http://www.coroflot.com/DillonZwick/The-War-Machine), a 24'x16'x15' wooden sculpture of a tank.
 
 * Designed ten minute fireworks show, consisting of more than 50 pyrotechnic effects, using `Camtasia` screencasting software.
 * Exported `Camtasia` XML project file and converted to a time-coded spreadsheet. Spreadsheet reduced to onsite assembly plans.
