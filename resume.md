@@ -148,7 +148,7 @@ The Pyro Team is responsible for the fiery destruction of the [War Machine](http
 
 Pyrosynthesis was a **20 foot tall burnable art piece** that acted as the central effigy for Myschievia 2009, the North Texas Burning Man regional event. As the leader of this project, my awesome team's accomplishments:
 
-* Build a twelve foot tall wooden flower pot
+* Built a twelve foot tall wooden flower pot
 * Coordinated the efforts of more than **30 volunteer artists** to construct unique, individual flower heads
 * Mounted each flower head to 16 foot "stalks", and assembled them into a **flower arrangement**
 * Filled the structure with **pyrotechnic effects**
