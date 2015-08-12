@@ -49,8 +49,8 @@ As the owner of my company, I've learned to:
 
 Scalability and Distributed Systems Engineer for *Words with Friends*, the iPhone's most downloaded game of all time. With a small, scrappy team, we averaged more than 1MM happy daily players per server engineer.
 
-* Feature development and day-to-day support of massive `Ruby on Rails` infrastructure. 3rd parties such as appdata.com estimated *With Friends* franchise to support 12.3 million DAU / 29.7 million MAU.
-* Lead a project to replace a sharded `MySQL` datastore with `Membase`, while accepting 3,000 database writes per second.
+* Feature development and day-to-day support of massive `Ruby on Rails` infrastructure. 3rd parties such as [appdata.com](http://appdata.com) estimated *With Friends* franchise to support 12.3 million DAU / 29.7 million MAU.
+* Lead a project to replace a 256 node sharded `MySQL` datastore with a `Membase` cluster, while accepting 3,000 database writes per second.
 * Created **Leadership Skills Training** program to help talented individual contributors grow into successful game directors.
 * Key contributor to **New Product Lifecycle** spec, which guided our process for developing "great ideas" into live *With Friends* games.
 * Created **Candidate Evaluation Criteria**, based on the studio's Core Values, to bring structure to what was previously an _ad hoc_ "thumbs up/thumbs down" hiring system.
