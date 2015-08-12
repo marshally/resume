@@ -1,0 +1,574 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<style>
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+}
+</style>
+<title>Marshall Yount</title>
+
+</head>
+<body>
+<h1>Marshall Yount</h1>
+
+<blockquote><p>marshall@yountlabs.com</p></blockquote>
+
+<h2>Summary</h2>
+
+<p>I'm a scalability/distributed systems engineer who loves working on large scale, rapidly growing products that touch lives. I build top performing software teams and fine tune agile development processes.</p>
+
+<p>I am currently at <a href="https://codeclimate.com">Code Climate</a>. Our team builds distributed systems that <strong>analyze 900 billion lines of source code</strong> per day.</p>
+
+<p>Before that I helped the #1 mobile <em>With Friends</em> game series scale to <strong>3,000 db writes per second</strong> (100k Rails requests per second) and was the lead engineer at <a href="https://web.archive.org/web/19990427221707/http://broadcast.com/">broadcast.com</a> when it was the biggest audio/video streaming site (and the <strong>17th largest site by DAU</strong>). I'm a co-organizer of the scalability-focused <a href="http://bigrubyconf.com">Big Ruby Conference</a>.</p>
+
+<p>In my spare time, I am an amateur chef, lover of costume parties, and a licensed <a href="http://gov.texas.gov/film/production/laws_pyrotechnic"><strong>Pyrotechnic Special Effects Operator</strong></a> in the State of Texas.</p>
+
+<h2>Experience</h2>
+
+<h3>Operations / Platform Engineering at Code Climate</h3>
+
+<blockquote><p>July 2014 - Present (1 year 2 months)</p></blockquote>
+
+<p>Code Climate maintains an automated code review system that analyzes more than 900 billion lines of source code per day. I build new features, keep the servers running, and participate in Code Reviews using GitHub Pull Requests and Slack.</p>
+
+<h4>Duties</h4>
+
+<ul>
+<li>Built custom instrumentation (<code>statsd</code>, <a href="https://librato.com">Librato</a> and alerting (<a href="http://pagerduty.com">PagerDuty</a>, <a href="http://newrelic.com">NewRelic</a> systems based on <strong>hundreds of custom metrics</strong> that give deep insight into the Platform's performance characteristics.</li>
+<li>Automated deployment with <a href="http://ansible.com">ansible</a> and <a href="http://docker.com">Docker</a> to more than a dozen different server types.</li>
+<li>Used <code>rollout</code> feature toggles and the <code>scientist</code> gem to safely test and deploy behavior-neutral refactorings.</li>
+<li>Delivered <em>Refactoring Rails</em> workshop to <a href="http://www.gardencityruby.org/">Garden City Rubyconf 2015</a>.</li>
+</ul>
+
+
+<h4>Roles</h4>
+
+<ul>
+<li><strong>Platform Team Captain</strong> for a small remote engineering team that took over an existing code base from busy founder-engineers.</li>
+<li><strong>Sales Engineer</strong> for <em>Code Climate Enterprise</em>, a self hosted version built on <a href="http://docker.com">Docker</a>.</li>
+</ul>
+
+
+<h3>Owner at Yount Labs</h3>
+
+<blockquote><p>April 2010 - June 2014 (4 years 3 months)</p></blockquote>
+
+<p>Yount Labs provides consulting services to help companies implement and improve agile development processes, reduce complexity, scale up, and generally do more with less.</p>
+
+<h4>Projects</h4>
+
+<ul>
+<li>Scalability, performance and code reviews.</li>
+<li>Break monolithic apps into services.</li>
+<li>Automated deployments to AWS, Rackspace, Heroku and other Cloud Providers using tools like Chef, Docker, and Ansible.</li>
+</ul>
+
+
+<p>As the owner of a company, I've learned to speak persuasively and sell solutions, take (and mitigate) big risks, and completely own projects from start to finish (from the fun stuff to taking out the trash).</p>
+
+<h3>Principal Software Engineer at Zynga</h3>
+
+<blockquote><p>May 2011 - October 2012 (1 year 6 months)</p></blockquote>
+
+<p>Scalability and Distributed Systems Engineer for <em>Words with Friends</em>, the iPhone's most downloaded game of all time. With a small, scrappy team, we averaged more than 1MM happy daily players per server engineer.</p>
+
+<ul>
+<li>Feature development and day-to-day support of massive <code>Ruby on Rails</code> infrastructure. 3rd parties such as <a href="http://appdata.com">appdata.com</a> estimated <em>With Friends</em> franchise to support 12.3 million DAU / 29.7 million MAU.</li>
+<li>Lead a project to replace a 256 node sharded <code>MySQL</code> datastore with a <code>Membase</code> cluster, while accepting 3,000 database writes per second.</li>
+<li>Created <strong>Leadership Skills Training</strong> program to help talented individual contributors grow into successful game directors.</li>
+<li>Key contributor to <strong>New Product Lifecycle</strong> spec, which guided our process for developing "great ideas" into live <em>With Friends</em> games.</li>
+<li>Worked with entire studio to draft <strong>Candidate Evaluation Criteria</strong>, based on the studio's Core Values, to bring structure and rigor to what was previously an <em>ad hoc</em> "thumbs up/thumbs down" hiring system.</li>
+</ul>
+
+
+<h3>Chief Technology Officer at Downtempo</h3>
+
+<blockquote><p>May 2009 - April 2010 (1 year)</p></blockquote>
+
+<p>As head technologist, I nurtured <a href="http://www.downtempo.net">Downtempo</a> from a product/design focused boutique consulting firm into a company that could deliver fully functional web applications.</p>
+
+<ul>
+<li>Broke down large projects into detailed plans.</li>
+<li>Remotely managed a diverse group of freelancers.</li>
+<li>Managed client expectations.</li>
+</ul>
+
+
+<h3>Lead Web Developer at Digital Drilling Data Systems</h3>
+
+<blockquote><p>November 2006 - April 2009 (2 years 6 months)</p></blockquote>
+
+<p>At DDDS, I built a web application designed to work side-by-side with their existing desktop client directional drilling software. As the <strong>only developer, sysadmin, and operations engineer</strong>, I did everything required to get the site up including:</p>
+
+<ul>
+<li>Collected requirements and designed the system.</li>
+<li>Primary developer and QA tester.</li>
+<li>Purchased servers and negotiated with the colocation facility.</li>
+<li>Racked the servers in the data center, plugging in their power and network cables.</li>
+<li>Continued new feature development, maintenance, 24x7 on-call support.</li>
+</ul>
+
+
+<h3>Engineering Manager at Yahoo! Inc</h3>
+
+<blockquote><p>September 2005 - November 2006 (1 year 3 months)</p></blockquote>
+
+<p>I returned to Yahoo in 2005 to manage a team of 10 engineers and designers creating the Universal Media Player 2.0 (UMP). The UMP empowered diverse Yahoo! business units to deploy video assets in standardized, with very little code. Responsibilities as the <strong>first ScrumMaster in Yahoo's Dallas office</strong> included:</p>
+
+<ul>
+<li>Building an team culture supportive of innovation and cross-group collaboration.</li>
+<li>Persuading other business units to use our tech, even though they liked their old way of doing things.</li>
+<li>Managing sprints to hit non-negotiable dates set by external events (sports, space shuttle launches, etc.)</li>
+</ul>
+
+
+<h3>Software Architect at Cost Effective Marketing</h3>
+
+<blockquote><p>September 2004 - September 2005 (1 year 1 month)</p></blockquote>
+
+<p>Bootstrapped direct mail startup sending customized automotive maintenance reminders.</p>
+
+<h3>Vice President of Software Development at Hanson Robotics</h3>
+
+<blockquote><p>February 2004 - September 2004 (8 months)</p></blockquote>
+
+<p>Hanson Robotics builds <strong>lifelike androids</strong> that blur the lines between human and robot. I was one of the first five team members. We were finalists for a $2.5 million ATP grant.</p>
+
+<h3>Technology Analyst at Hunt Financial Ventures</h3>
+
+<blockquote><p>March 2003 - February 2004 (1 year)</p></blockquote>
+
+<p>Technology lead for a multi-strategy family of hedge funds which managed over $1 billion in client assets. Set annual technology goals and negotiated budgets with upper management.</p>
+
+<h3>Analyst Intern at Crestmont Holdings</h3>
+
+<blockquote><p>June 2002 - August 2002 (3 months)</p></blockquote>
+
+<p>Research Analyst Intern for a Fund of Funds. I analyzed historical Hedge Fund performance and submitted reports to inform portfolio decisions.</p>
+
+<h3>Senior Engineer/Architect at Yahoo! Broadcast</h3>
+
+<blockquote><p>September 1999 - August 2001 (2 years)</p></blockquote>
+
+<h5>Projects:</h5>
+
+<ul>
+<li><em>Request Radio</em> was an ambitious Yahoo! Music skunkworks project to create personalized streaming media music stations based on a library of every CD ever recorded. My team created automated CD ripping software that <strong>encoded hundreds of thousands of songs</strong> for <em>Yahoo! Launchcast</em>'s music library.
+
+<ul>
+<li><strong>Robotically control 200 disc CD ripper stations</strong>.</li>
+<li>Annotated tracks with metadata with <strong>barcode scanners</strong>, matching UPC codes to the CDDB entries of tracks while they were being transcoded.</li>
+<li>Transcode raw <code>.WAV</code> files into a variety of different streaming formats.</li>
+</ul>
+</li>
+<li>Lead Engineer for <strong>integrating broadcast.com's Windows systems with Yahoo’s Unix systems</strong> post-acquisition.</li>
+</ul>
+
+
+<h3>Team Lead at Broadcast.com</h3>
+
+<blockquote><p>February 1997 - September 1999 (2 years 8 months)</p>
+
+<p>(Broadcast.com was acquired by Yahoo! in September 1999)</p></blockquote>
+
+<p>Lead software developer for the <strong>17th largest website on the internet</strong> (and the largest consumer of streaming bandwidth). With less than ten software developers on the team, I got to work on a little bit of everything.</p>
+
+<h5>Projects:</h5>
+
+<ul>
+<li>Pay Per View streaming server</li>
+<li>In-memory key value store (C++)</li>
+<li>Reporting systems/analytics</li>
+</ul>
+
+
+<h2>Outside of Work Projects</h2>
+
+<h3>Big Ruby Conference, co-organizer</h3>
+
+<blockquote><p>February 2013 to February 2014</p></blockquote>
+
+<p><a href="http://bigrubyconf.com">Big Ruby</a> is a conference focused on the use of Ruby in large organizations, infrastructures, userbases, and teams. If your Ruby runs hundreds of servers, handles millions of users, and you count each and every millisecond, this is the conference for you. 2013's videos received over 65K views on YouTube. In 2014 we had attendees from all over the world.</p>
+
+<h3>Pyro Team Lead, Myschievia 2014</h3>
+
+<blockquote><p>October 2014</p></blockquote>
+
+<p>The Pyro Team was responsible for the fiery destruction of the <a href="http://www.coroflot.com/DillonZwick/The-War-Machine">War Machine</a>, a 24'x16'x15' wooden sculpture of a tank.</p>
+
+<ul>
+<li>Designed ten minute fireworks show, consisting of more than 50 pyrotechnic effects, using <code>Camtasia</code> screencasting software.</li>
+<li>Exported <code>Camtasia</code> XML project file and converted to a time-coded spreadsheet. Spreadsheet reduced to onsite assembly plans.</li>
+<li>Trained ten volunteer staff members to safely handle and assemble pyrotechnic explosive devices.</li>
+</ul>
+
+
+<h3>Pyrosynthesis, Myschievia Effigy Lead</h3>
+
+<blockquote><p>April 2009 to October 2009</p></blockquote>
+
+<p>Pyrosynthesis was a <strong>20 foot tall burnable art piece</strong> that acted as the central effigy for Myschievia 2009, the North Texas Burning Man regional event. As the leader of this project, my awesome team's accomplishments:</p>
+
+<ul>
+<li>Built a twelve foot tall wooden flower pot</li>
+<li>Coordinated the efforts of more than <strong>30 volunteer artists</strong> to construct unique, individual flower heads</li>
+<li>Mounted each flower head to 16 foot "stalks", and assembled them into a <strong>flower arrangement</strong></li>
+<li>Filled the structure with <strong>pyrotechnic effects</strong></li>
+<li><strong>Burned it</strong> to the ground</li>
+</ul>
+
+
+<h3>The Ball of Light, Multimedia Software Lead</h3>
+
+<blockquote><p>February 2012 to August 2012</p></blockquote>
+
+<p>The <a href="http://www.theballoflight.com/">Ball of Light</a> was an art project featured in the center of the 9 o'clock keyhole intersection during Burning Man 2012.</p>
+
+<p>The Ball of Light is a 12 ft. diameter sphere composed of three interlocking aluminum rings, with <strong>computer controlled DJ lights</strong> mounted on the vertices. An <strong>XBox Kinect controller</strong> is mounted near eye level to allow users to interact with the lights, and a microphone mounted to the sculpture runs sound activated scripts. I created a set of <strong>composable modular open source projects</strong> that form the basis of the Ball of Light's interactivity.</p>
+
+<h3>Dallas Ruby Brigade, Member</h3>
+
+<blockquote><p>November 2007 to Present</p></blockquote>
+
+<p>I've given several presentations to the Dallas Ruby Brigade including:</p>
+
+<ul>
+<li><em>Microformats</em> - April, 2010</li>
+<li><em>Ruby on Rails Performance Tricks and Treats</em> - August 2010</li>
+<li><em>The Ball of Light</em> - December 2012</li>
+<li><em>Deploying Rails with Docker</em> - April 2014</li>
+</ul>
+
+
+<h3>Grrwl</h3>
+
+<blockquote><p>April 2013 to May 2013</p></blockquote>
+
+<p>On-demand information to <em>any</em> mobile phone. Grrwl allows anyone in South Africa to <strong>retrieve information for free</strong> by giving a "missed call" to a specific phone number, and receiving an SMS with the requested information.</p>
+
+<p>Grrwl can provide information services such as breaking news, transport schedules, sports scores, etc. Sending requested information over SMS means that we can reach 100% of the mobile phones in South Africa, as oppose to requiring a data-enabled phone. A proof-of-concept has been built using Twilio and Heroku.</p>
+
+<p><em>Grrwl was sold in 2014</em></p>
+
+<h2>Certifications</h2>
+
+<h4>Certified Scrum Master</h4>
+
+<blockquote><p>Scrum Alliance December 2009</p></blockquote>
+
+<h4>Pyrotechnic Special Effects Operator</h4>
+
+<blockquote><p>State of Texas April 2014</p></blockquote>
+
+<h2>Education</h2>
+
+<h4>Southern Methodist University - Cox School of Business</h4>
+
+<blockquote><p>MBA, Finance, 2001 - 2003</p></blockquote>
+
+<h4>Southern Methodist University</h4>
+
+<blockquote><p>B.A., Computer Science, 1992 - 1996</p></blockquote>
+
+<h2>Interests</h2>
+
+<p>cooking, camping, gadgets, fancy dress parties, and fireworks</p>
+</body>
+</html>
