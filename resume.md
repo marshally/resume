@@ -88,7 +88,7 @@ Bootstrapped direct mail startup sending customized automotive maintenance remin
 ### Vice President of Software Development at Hanson Robotics
 > February 2004 - September 2004 (8 months)
 
-*Hanson Robotics* builds lifelike androids that blur the lines between human and robot. I was one of the first five team members. We built prototypes, wrote grant proposals, created business models, and presented to clients.
+Hanson Robotics builds **lifelike androids** that blur the lines between human and robot. I was one of the first five team members. We built prototypes, wrote grant proposals, created business models, and presented to clients.
 
 ### Technology Analyst at Hunt Financial Ventures
 > March 2003 - February 2004 (1 year)
@@ -111,7 +111,7 @@ _Request Radio_ was an ambitious Yahoo! Music skunkworks project to create perso
 * Annotated tracks with metadata with **barcode scanners**, matching UPC codes to the CDDB entries of tracks while they were being transcoded.
 * Transcode raw `.WAV` files into a variety of different streaming formats.
 
-Even though the Request Radio project was shelved, the CD ripping software that we created **encoded hundreds of thousands of songs** for _Yahoo! Launchcast_'s music library.
+Even though the Request Radio project was shelved, our CD ripping software **encoded hundreds of thousands of songs** for _Yahoo! Launchcast_'s music library.
 
 ##### Project lead for integrating Yahoo’s Unix systems and broadcast.com Windows systems post-acquisition.
 
@@ -120,7 +120,7 @@ Even though the Request Radio project was shelved, the CD ripping software that 
 > February 1997 - September 1999 (2 years 8 months)
 > (Broadcast.com was acquired by Yahoo! in September 1999)
 
-Lead software developer for the 17th largest website on the internet (and the largest consumer of streaming bandwidth). With less than ten software developers on the team, I got to work on a little bit of everything.
+Lead software developer for the **17th largest website on the internet** (and the largest consumer of streaming bandwidth). With less than ten software developers on the team, I got to work on a little bit of everything.
 
 ##### Favorite projects:
 
@@ -133,14 +133,14 @@ Lead software developer for the 17th largest website on the internet (and the la
 ### Big Ruby Conference, co-organizer
 > February 2013 to February 2014
 
-Big Ruby is a conference focused on the use of Ruby in large organizations, infrastructures, userbases, and teams. If your Ruby runs hundreds of servers, handles millions of users, and you count each and every millisecond, this is the conference for you.
+[Big Ruby](http://bigrubyconf.com) is a conference focused on the use of Ruby in large organizations, infrastructures, userbases, and teams. If your Ruby runs hundreds of servers, handles millions of users, and you count each and every millisecond, this is the conference for you.
 
 2013's videos received over 65K views on YouTube. In 2014 we had attendees from all over the world.
 
 ### Pyro Team Lead, Myschievia 2014
 > October 2014 to Present
 
-The Pyro Team is responsible for the fiery destruction of the War Machine, a 24'x16'x15' wooden sculpture of a tank.
+The Pyro Team is responsible for the fiery destruction of the [War Machine](http://www.coroflot.com/DillonZwick/The-War-Machine), a 24'x16'x15' wooden sculpture of a tank.
 
 * Designed ten minute fireworks show, consisting of more than 50 pyrotechnic effects, using `Camtasia` screencasting software.
 * Exported `Camtasia` XML project file and converted to a time-coded spreadsheet. Spreadsheet reduced to onsite assembly plans.
@@ -149,24 +149,24 @@ The Pyro Team is responsible for the fiery destruction of the War Machine, a 24'
 ### Pyrosynthesis, Myschievia Effigy Lead
 > April 2009 to October 2009
 
-Pyrosynthesis was a 20 foot tall burnable art piece that acted as the central effigy for Myschievia 2009, the North Texas Burning Man regional event. As the leader of this project, my awesome team's accomplishments:
+Pyrosynthesis was a **20 foot tall burnable art piece** that acted as the central effigy for Myschievia 2009, the North Texas Burning Man regional event. As the leader of this project, my awesome team's accomplishments:
 
 * Build a twelve foot tall wooden flower pot
-* Coordinated the efforts of more than 30 volunteer artists to construct unique, individual flower heads
-* Mounted each flower head to 16 foot "stalks", and assembled them into a flower arrangement
-* Filled the structure with pyrotechnic effects
-* Burned it to the ground
+* Coordinated the efforts of more than **30 volunteer artists** to construct unique, individual flower heads
+* Mounted each flower head to 16 foot "stalks", and assembled them into a **flower arrangement**
+* Filled the structure with **pyrotechnic effects**
+* **Burned it** to the ground
 
 ### The Ball of Light, Multimedia Software Lead
 > February 2012 to August 2012
 
-The Ball of Light was an art project featured in the center of the 9 o'clock keyhole intersection during Burning Man 2012.
+The [Ball of Light](http://www.theballoflight.com/) was an art project featured in the center of the 9 o'clock keyhole intersection during Burning Man 2012.
 
 The Ball of Light is a 12 ft. diameter sphere composed of three interlocking aluminum rings, with **computer controlled DJ lights** mounted on the vertices. An **XBox Kinect controller** is mounted near eye level to allow users to interact with the lights, and a microphone mounted to the sculpture runs sound activated scripts. I created a set of **composable modular open source projects** that form the basis of the Ball of Light's interactivity.
 
 1. `kinectable_pipe` - C++ is the primary language for controlling the MS Kinect on a Unix OS. In order to make Kinect outputs available to scripting languages, I wrote a small C++ project
  that reads data from the Kinect and writes it to `STDOUT` as a series of JSON blobs.
-2. `open_lighting_rb` - The Ball of Light's lights are controlled using the DMX format. Because Ruby does not have a currently maintained `DMX` library, I wrote a small gem that wraps the Open Lighting Architecture project and exposes a DSL.
+2. `open_lighting_rb` - The Ball of Light's lights are controlled using the DMX format. Because Ruby does not have a currently maintained `DMX` library, I wrote a small gem that wraps the [Open Lighting Architecture[(https://www.openlighting.org/ola/) project and exposes a DSL.
 3. `the_ball_of_light` - this project contains the "business logic" that controls how the lights respond to input from either the Kinect or the microphone.
 4. `homebrew-alt` - all of the component software is packaged in a `homebrew tap` repo.
 
@@ -183,9 +183,9 @@ I've given several presentations to the Dallas Ruby Brigade including:
 ### Grrwl
 > April 2013 to May 2013
 
-On-demand information to *any* mobile phone. Grrwl allows anyone in South Africa to retrieve information for free by giving a "missed call" to a specific phone number, and receiving an SMS with the requested information.
+On-demand information to *any* mobile phone. Grrwl allows anyone in South Africa to **retrieve information for free by giving a "missed call" to a specific phone number, and receiving an SMS with the requested information**.
 
-Grrwl can provide information services such as breaking news, transport schedules, sports scores, etc. Sending requested information over SMS means that we can reach 100% of the mobile phones in South Africa, as oppose to requiring a data-enabled phone. In future, we can provision "Grrwl lines" for brands and agencies, and create platforms for surveys and quizzes. By using the phone number as a user ID, we can build up user profiles from usage, and target advertising accordingly, and by avoiding spam / unsolicited messages, we can build user trust in a low-trust environment. A proof-of-concept has been built using Twilio and Heroku, and we're currently validating the business model.
+Grrwl can provide information services such as breaking news, transport schedules, sports scores, etc. Sending requested information over SMS means that we can reach 100% of the mobile phones in South Africa, as oppose to requiring a data-enabled phone. In future, we can provision "Grrwl lines" for brands and agencies, and create platforms for surveys and quizzes. By using the phone number as a user ID, we can build up user profiles from usage, and target advertising accordingly, and by avoiding spam / unsolicited messages, we can build user trust in a low-trust environment. A proof-of-concept has been built using Twilio and Heroku.
 
 Update: Grrwl was sold in 2014.
 
