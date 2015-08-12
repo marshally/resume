@@ -12,7 +12,7 @@ I am currently at [Code Climate](https://codeclimate.com). Our team builds distr
 
 Before that I helped the #1 mobile _With Friends_ game series scale to **3,000 db writes per second** (100k Rails requests per second) and was the lead engineer at [broadcast.com](https://web.archive.org/web/19990427221707/http://broadcast.com/) when it was the biggest audio/video streaming site (and the **17th largest site by DAU**). I'm a co-organizer of the scalability-focused [Big Ruby Conference](http://bigrubyconf.com).
 
-In my spare time, I am an amateur chef, lover of costume parties, and a licensed Pyrotechnic Special Effects Operator in the State of Texas.
+In my spare time, I am an amateur chef, lover of costume parties, and a licensed [**Pyrotechnic Special Effects Operator**](http://gov.texas.gov/film/production/laws_pyrotechnic) in the State of Texas.
 
 ## Experience
 
