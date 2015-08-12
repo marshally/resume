@@ -64,12 +64,13 @@ As head technologist, I nurtured [Downtempo](http://www.downtempo.net) from a pr
 * Remotely managed a diverse group of freelancers.
 * Managed client expectations.
 
-### Lead Developer at Digital Drilling Data Systems
+### Lead Web Developer at Digital Drilling Data Systems
 > November 2006 - April 2009 (2 years 6 months)
 
 At DDDS, I built a web application designed to work side-by-side with their existing desktop client directional drilling software. As the **only developer, sysadmin, and operations engineer**, I did everything required to get the site up including:
 
-* Wrote and tested code.
+* Collected requirements and designed the system.
+* Primary developer and QA tester.
 * Purchased servers and negotiated with the colocation facility.
 * Racked the servers in the data center, plugging in their power and network cables.
 * Continued new feature development, maintenance, 24x7 on-call support.
