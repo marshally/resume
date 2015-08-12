@@ -40,7 +40,7 @@ Yount Labs provides consulting services to help companies implement and improve 
 
 As the owner of my company, I've learned to:
 
-* Be persuasive and sell myself.
+* Speak persuasively and sell solutions.
 * Take (and mitigate) big risks.
 * Completely own projects from start to finish, from the fun stuff to taking out the trash.
 
