@@ -36,13 +36,15 @@ Code Climate maintains an automated code review system that analyzes more than 9
 ### Owner at Yount Labs
 > April 2010 - June 2014 (4 years 3 months)
 
-Yount Labs provides consulting services to help companies implement and improve agile development processes, scale their server footprints with automated deployment, break monolithic apps up into services, and help align product strategy with technology.
+Yount Labs provides consulting services to help companies implement and improve agile development processes, reduce complexity, scale up, and generally do more with less.
 
-As the owner of my company, I've learned to:
+#### Projects
 
-* Speak persuasively and sell solutions.
-* Take (and mitigate) big risks.
-* Completely own projects from start to finish, from the fun stuff to taking out the trash.
+* Scalability, performance and code reviews.
+* Break monolithic apps into services.
+* Automated deployments to AWS, Rackspace, Heroku and other Cloud Providers using tools like Chef, Docker, and Ansible.
+
+As the owner of a company, I've learned to speak persuasively and sell solutions, take (and mitigate) big risks, and completely own projects from start to finish (from the fun stuff to taking out the trash).
 
 ### Principal Software Engineer at Zynga
 > May 2011 - October 2012 (1 year 6 months)
