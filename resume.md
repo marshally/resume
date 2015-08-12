@@ -178,16 +178,15 @@ I've given several presentations to the Dallas Ruby Brigade including:
 ### Grrwl
 > April 2013 to May 2013
 
-On-demand information to *any* mobile phone. Grrwl allows anyone in South Africa to **retrieve information for free by giving a "missed call" to a specific phone number, and receiving an SMS with the requested information**.
+On-demand information to *any* mobile phone. Grrwl allows anyone in South Africa to **retrieve information for free** by giving a "missed call" to a specific phone number, and receiving an SMS with the requested information.
 
-Grrwl can provide information services such as breaking news, transport schedules, sports scores, etc. Sending requested information over SMS means that we can reach 100% of the mobile phones in South Africa, as oppose to requiring a data-enabled phone. In future, we can provision "Grrwl lines" for brands and agencies, and create platforms for surveys and quizzes. By using the phone number as a user ID, we can build up user profiles from usage, and target advertising accordingly, and by avoiding spam / unsolicited messages, we can build user trust in a low-trust environment. A proof-of-concept has been built using Twilio and Heroku.
+Grrwl can provide information services such as breaking news, transport schedules, sports scores, etc. Sending requested information over SMS means that we can reach 100% of the mobile phones in South Africa, as oppose to requiring a data-enabled phone. A proof-of-concept has been built using Twilio and Heroku.
 
 Update: Grrwl was sold in 2014.
 
 ## Certifications
 
 #### Certified Scrum Master
-
 > Scrum Alliance December 2009
 
 #### Pyrotechnic Special Effects Operator
