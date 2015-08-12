@@ -88,7 +88,7 @@ Bootstrapped direct mail startup sending customized automotive maintenance remin
 ### Vice President of Software Development at Hanson Robotics
 > February 2004 - September 2004 (8 months)
 
-Hanson Robotics builds **lifelike androids** that blur the lines between human and robot. I was one of the first five team members. We built prototypes, wrote grant proposals, created business models, and presented to clients.
+Hanson Robotics builds **lifelike androids** that blur the lines between human and robot. I was one of the first five team members. We were finalists for a $2.5 million ATP grant.
 
 ### Technology Analyst at Hunt Financial Ventures
 > March 2003 - February 2004 (1 year)
