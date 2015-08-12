@@ -103,26 +103,23 @@ Research Analyst Intern for a Fund of Funds. I analyzed historical Hedge Fund pe
 ### Senior Engineer/Architect at Yahoo! Broadcast
 > September 1999 - August 2001 (2 years)
 
-##### Project lead for ripping/transcoding systems for _Request Radio_.
+#####  Projects:
 
-_Request Radio_ was an ambitious Yahoo! Music skunkworks project to create personalized streaming media music stations based on a library of every CD ever recorded.
-
-* **Robotically control 200 disc CD ripper stations**.
-* Annotated tracks with metadata with **barcode scanners**, matching UPC codes to the CDDB entries of tracks while they were being transcoded.
-* Transcode raw `.WAV` files into a variety of different streaming formats.
-
-Even though the Request Radio project was shelved, our CD ripping software **encoded hundreds of thousands of songs** for _Yahoo! Launchcast_'s music library.
-
-##### Project lead for integrating Yahoo’s Unix systems and broadcast.com Windows systems post-acquisition.
+*  _Request Radio_ was an ambitious Yahoo! Music skunkworks project to create personalized streaming media music stations based on a library of every CD ever recorded. My team created automated CD ripping software that **encoded hundreds of thousands of songs** for _Yahoo! Launchcast_'s music library.
+    * **Robotically control 200 disc CD ripper stations**.
+    * Annotated tracks with metadata with **barcode scanners**, matching UPC codes to the CDDB entries of tracks while they were being transcoded.
+    * Transcode raw `.WAV` files into a variety of different streaming formats.
+* Lead Engineer for **integrating broadcast.com's Windows systems with Yahoo’s Unix systems** post-acquisition.
 
 
 ### Team Lead at Broadcast.com
 > February 1997 - September 1999 (2 years 8 months)
+
 > (Broadcast.com was acquired by Yahoo! in September 1999)
 
 Lead software developer for the **17th largest website on the internet** (and the largest consumer of streaming bandwidth). With less than ten software developers on the team, I got to work on a little bit of everything.
 
-##### Favorite projects:
+##### Projects:
 
 * Pay Per View streaming server
 * In-memory key value store (C++)
