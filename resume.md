@@ -1,7 +1,5 @@
 # Marshall Yount
 
-## Operations / Platform Engineering at Code Climate
-
 > marshall@yountlabs.com
 
 ## Summary
