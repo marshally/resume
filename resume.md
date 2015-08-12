@@ -164,12 +164,6 @@ The [Ball of Light](http://www.theballoflight.com/) was an art project featured 
 
 The Ball of Light is a 12 ft. diameter sphere composed of three interlocking aluminum rings, with **computer controlled DJ lights** mounted on the vertices. An **XBox Kinect controller** is mounted near eye level to allow users to interact with the lights, and a microphone mounted to the sculpture runs sound activated scripts. I created a set of **composable modular open source projects** that form the basis of the Ball of Light's interactivity.
 
-1. `kinectable_pipe` - C++ is the primary language for controlling the MS Kinect on a Unix OS. In order to make Kinect outputs available to scripting languages, I wrote a small C++ project
- that reads data from the Kinect and writes it to `STDOUT` as a series of JSON blobs.
-2. `open_lighting_rb` - The Ball of Light's lights are controlled using the DMX format. Because Ruby does not have a currently maintained `DMX` library, I wrote a small gem that wraps the [Open Lighting Architecture[(https://www.openlighting.org/ola/) project and exposes a DSL.
-3. `the_ball_of_light` - this project contains the "business logic" that controls how the lights respond to input from either the Kinect or the microphone.
-4. `homebrew-alt` - all of the component software is packaged in a `homebrew tap` repo.
-
 ### Dallas Ruby Brigade, Member
 > November 2007 to Present
 
