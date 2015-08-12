@@ -78,7 +78,7 @@ At DDDS, I built a web application designed to work side-by-side with their exis
 ### Engineering Manager at Yahoo! Inc
 > September 2005 - November 2006 (1 year 3 months)
 
-I returned to Yahoo in 2005 to manage a team of 10 engineers and designers creating the Universal Media Player 2.0, a streaming player platform enabling Yahoo! business units to easily deploy video assets. **First ScrumMaster** in Yahoo's Dallas office.
+I returned to Yahoo! in 2005 to manage a team of 10 engineers and designers creating the Universal Media Player 2.0, a streaming player platform enabling Yahoo! business units to easily deploy video assets. **First ScrumMaster** in Yahoo's Dallas office.
 
 ### Software Architect at Cost Effective Marketing
 > September 2004 - September 2005 (1 year 1 month)
