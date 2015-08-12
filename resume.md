@@ -26,7 +26,7 @@ Code Climate maintains an automated code review system that analyzes more than 9
 * Built custom instrumentation (`statsd`, [Librato](https://librato.com) and alerting ([PagerDuty](http://pagerduty.com), [NewRelic](http://newrelic.com) systems based on **hundreds of custom metrics** that give deep insight into the Platform's performance characteristics.
 * Automated deployment with [ansible](http://ansible.com) and [Docker](http://docker.com) to more than a dozen different server types.
 * Used `rollout` feature toggles and the `scientist` gem to safely test and deploy behavior-neutral refactorings.
-* Delivered *Refactoring Rails* workshop to Garden City Rubyconf 2015.
+* Delivered *Refactoring Rails* workshop to [Garden City Rubyconf 2015](http://www.gardencityruby.org/).
  
 #### Roles
 
