@@ -54,7 +54,7 @@ Yount Labs provides consulting services to help companies implement and improve 
 
 As the owner of a company, I've learned to speak persuasively and sell solutions, take (and mitigate) big risks, and completely own projects from start to finish (from the fun stuff to taking out the trash).
 
-Skills: Rails, Sinatra, rspec, PHP, Authorize.net, chef, Docker, Ansible
+Skills: Rails, Sinatra, rspec, PHP, Authorize.net, chef, Docker, Ansible, AWS, Heroku, MySQL, Postgres, Redis
 
 ### Principal Software Engineer at Zynga
 > May 2011 - October 2012 (1 year 6 months)
