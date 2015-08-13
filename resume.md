@@ -20,6 +20,8 @@ In my spare time, I am an amateur chef, lover of costume parties, and a licensed
 * Process: Scrum, agile, kanban, continuous integration, continuous deployment
 * Servers: nginx, apache
 
+---
+
 ## Experience
 
 ### Operations / Platform Engineering at Code Climate
@@ -152,6 +154,8 @@ Lead software developer for the **17th largest website on the internet** (and th
 
 **Skills:** Microsoft stack, streaming audio/video, payment processing, Perl, reporting and analytics, web applications, C/C++, ad server plugins, SQL Server admin and performance
 
+---
+
 ## Outside of Work Projects
 
 ### Big Ruby Conference, co-organizer
@@ -204,6 +208,8 @@ On-demand information to *any* mobile phone. Grrwl allows anyone in South Africa
 Grrwl can provide information services such as breaking news, transport schedules, sports scores, etc. Sending requested information over SMS means that we can reach 100% of the mobile phones in South Africa, as oppose to requiring a data-enabled phone. A proof-of-concept has been built using Twilio and Heroku.
 
 *Grrwl was sold in 2014*
+
+---
 
 ## Certifications
 
