@@ -135,6 +135,7 @@ Research Analyst Intern for a Fund of Funds. I analyzed historical Hedge Fund pe
     * Transcode raw `.WAV` files into a variety of different streaming formats.
 * Lead Engineer for **integrating broadcast.com's Windows systems with Yahoo’s Unix systems** post-acquisition.
 
+Skills: Microsoft stack, streaming audio/video, SQL Server, Oracle, FreeBSD
 
 ### Team Lead at Broadcast.com
 > February 1997 - September 1999 (2 years 8 months)
@@ -148,6 +149,8 @@ Lead software developer for the **17th largest website on the internet** (and th
 * Pay Per View streaming server
 * In-memory key value store (C++)
 * Reporting systems/analytics
+
+Skills: Microsoft stack, streaming audio/video, payment processing, Perl, reporting and analytics, web applications, C/C++, ad server plugins, SQL Server admin and performance
 
 ## Outside of Work Projects
 
