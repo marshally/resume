@@ -38,6 +38,8 @@ Code Climate maintains an automated code review system that analyzes more than 9
 * **Platform Team Captain** for a small remote engineering team that took over an existing code base from busy founder-engineers.
 * **Sales Engineer** for *Code Climate Enterprise*, a self hosted version built on [Docker](http://docker.com).
 
+Skills: Rails, rollout, scientist, rspec, sidekiq, resque, mongodb, memcached, redis, statsd, OpenVZ, Docker, Ansible, CoreOS, capistrano
+
 ### Owner at Yount Labs
 > April 2010 - June 2014 (4 years 3 months)
 
