@@ -12,6 +12,13 @@ Before that I helped the #1 mobile _With Friends_ game series scale to **3,000 d
 
 In my spare time, I am an amateur chef, lover of costume parties, and a licensed [**Pyrotechnic Special Effects Operator**](http://gov.texas.gov/film/production/laws_pyrotechnic) in the State of Texas.
 
+## Expert Level Skills
+
+* Programming: Ruby on Rails
+* DevOps: Docker, Ansible, Chef, bash
+* Databases: MySQL, MongoDB, Redis, memcached, Membase
+* Process: Scrum, agile, kanban
+
 ## Experience
 
 ### Operations / Platform Engineering at Code Climate
