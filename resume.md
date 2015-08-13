@@ -17,7 +17,7 @@ In my spare time, I am an amateur chef, lover of costume parties, and a licensed
 * Programming: Ruby on Rails, TDD
 * DevOps: Docker, Ansible, Chef, bash
 * Databases: MySQL, MongoDB, Redis, memcached, Membase
-* Process: Scrum, agile, kanban
+* Process: Scrum, agile, kanban, continuous integration, continuous deployment
 * Servers: nginx, apache
 
 ## Experience
@@ -39,7 +39,7 @@ Code Climate maintains an automated code review system that analyzes more than 9
 * **Platform Team Captain** for a small remote engineering team that took over an existing code base from busy founder-engineers.
 * **Sales Engineer** for *Code Climate Enterprise*, a self hosted version built on [Docker](http://docker.com).
 
-Skills: Rails, rollout, scientist, rspec, capistrano, sidekiq, resque, mongodb, memcached, redis, statsd, OpenVZ, Docker, Ansible, CoreOS
+Skills: Rails, rollout, scientist, rspec, capistrano, sidekiq, resque, mongodb, memcached, redis, statsd, OpenVZ, Docker, Ansible, CoreOS, CentOS, Travis CI, Circle CI, Slackbot
 
 ### Owner at Yount Labs
 > April 2010 - June 2014 (4 years 3 months)
@@ -54,7 +54,7 @@ Yount Labs provides consulting services to help companies implement and improve 
 
 As the owner of a company, I've learned to speak persuasively and sell solutions, take (and mitigate) big risks, and completely own projects from start to finish (from the fun stuff to taking out the trash).
 
-Skills: Rails, Sinatra, rspec, PHP, Authorize.net, chef, Docker, Ansible, AWS, Heroku, MySQL, Postgres, Redis
+Skills: Rails, Sinatra, rspec, PHP, Authorize.net, chef, Docker, Ansible, AWS, Heroku, MySQL, Postgres, Redis, Ubuntu, Jenkins
 
 ### Principal Software Engineer at Zynga
 > May 2011 - October 2012 (1 year 6 months)
@@ -67,7 +67,7 @@ Scalability and Distributed Systems Engineer for *Words with Friends*, the iPhon
 * Key contributor to **New Product Lifecycle** spec, which guided our process for developing "great ideas" into live *With Friends* games.
 * Worked with entire studio to draft **Candidate Evaluation Criteria**, based on the studio's Core Values, to bring structure and rigor to what was previously an _ad hoc_ "thumbs up/thumbs down" hiring system.
 
-Skills: Rails, rspec, rollout, capistrano, sharded MySQL, Redis, iOS, Scrumban
+Skills: Rails, rspec, rollout, capistrano, sharded MySQL, Redis, iOS, Scrumban, Jenkins
 
 ### Chief Technology Officer at Downtempo
 >May 2009 - April 2010 (1 year)
@@ -78,7 +78,7 @@ As head technologist, I nurtured [Downtempo](http://www.downtempo.net) from a pr
 * Remotely managed a diverse group of freelancers.
 * Managed client expectations.
 
-Skills: Rails, MySQL, RESTful API design, PHP, SoftLayer
+Skills: Rails, MySQL, RESTful API design, PHP, SoftLayer, Jenkins
 
 ### Lead Web Developer at Digital Drilling Data Systems
 > November 2006 - April 2009 (2 years 6 months)
@@ -91,6 +91,8 @@ At DDDS, I built a web application designed to work side-by-side with their exis
 * Racked the servers in the data center, plugging in their power and network cables.
 * Continued new feature development, maintenance, 24x7 on-call support.
 
+Skills: Microsoft stack, SQL Server, CruiseControl.net
+
 ### Engineering Manager at Yahoo! Inc
 > September 2005 - November 2006 (1 year 3 months)
 
@@ -100,7 +102,7 @@ I returned to Yahoo in 2005 to manage a team of 10 engineers and designers creat
 * Persuading other business units to use our tech, even though they liked their old way of doing things.
 * Managing sprints to hit non-negotiable dates set by external events (sports, space shuttle launches, etc.)
 
-Skills: PHP, Flash, Streaming Video, Oracle, Scrum
+Skills: PHP, Flash, Streaming Video, Oracle, Scrum, FreeBSD
 
 ### Software Architect at Cost Effective Marketing
 > September 2004 - September 2005 (1 year 1 month)
