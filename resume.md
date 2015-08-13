@@ -33,7 +33,7 @@ Code Climate maintains an automated code review system that analyzes more than 9
 * Automated deployment with [ansible](http://ansible.com) and [Docker](http://docker.com) to more than a dozen different server types.
 * Used `rollout` feature toggles and the `scientist` gem to safely test and deploy behavior-neutral refactorings.
 * Delivered *Refactoring Rails* workshop to [Garden City Rubyconf 2015](http://www.gardencityruby.org/).
- 
+
 #### Roles
 
 * **Platform Team Captain** for a small remote engineering team that took over an existing code base from busy founder-engineers.
@@ -96,7 +96,7 @@ At DDDS, I built a web application designed to work side-by-side with their exis
 
 I returned to Yahoo in 2005 to manage a team of 10 engineers and designers creating the Universal Media Player 2.0 (UMP). The UMP empowered diverse Yahoo! business units to deploy video assets in standardized, with very little code. Responsibilities as the **first ScrumMaster in Yahoo's Dallas office** included:  
 
-* Building an team culture supportive of innovation and cross-group collaboration. 
+* Building an team culture supportive of innovation and cross-group collaboration.
 * Persuading other business units to use our tech, even though they liked their old way of doing things.
 * Managing sprints to hit non-negotiable dates set by external events (sports, space shuttle launches, etc.)
 
