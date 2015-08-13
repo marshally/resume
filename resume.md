@@ -4,7 +4,7 @@
 
 ## Summary
 
-I'm a scalability/distributed systems engineer who loves working on large scale, rapidly growing products that touch lives. I build top performing software teams and fine tune agile development processes.
+I'm a scalability/distributed systems engineer who loves working on large scale, rapidly growing products that touch lives. I build high performing software teams and fine tune agile development processes.
 
 I am currently at [Code Climate](https://codeclimate.com). Our team builds distributed systems that **analyze 900 billion lines of source code** per day.
 
