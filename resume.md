@@ -66,6 +66,8 @@ Scalability and Distributed Systems Engineer for *Words with Friends*, the iPhon
 * Key contributor to **New Product Lifecycle** spec, which guided our process for developing "great ideas" into live *With Friends* games.
 * Worked with entire studio to draft **Candidate Evaluation Criteria**, based on the studio's Core Values, to bring structure and rigor to what was previously an _ad hoc_ "thumbs up/thumbs down" hiring system.
 
+Skills: Rails, rspec, rollout, capistrano, sharded MySQL, Redis, iOS, Scrumban
+
 ### Chief Technology Officer at Downtempo
 >May 2009 - April 2010 (1 year)
 
