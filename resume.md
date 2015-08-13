@@ -77,6 +77,8 @@ As head technologist, I nurtured [Downtempo](http://www.downtempo.net) from a pr
 * Remotely managed a diverse group of freelancers.
 * Managed client expectations.
 
+Skills: Rails, PHP, SoftLayer
+
 ### Lead Web Developer at Digital Drilling Data Systems
 > November 2006 - April 2009 (2 years 6 months)
 
