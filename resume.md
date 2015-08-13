@@ -129,11 +129,11 @@ Research Analyst Intern for a Fund of Funds. I analyzed historical Hedge Fund pe
 
 #####  Projects:
 
+* Lead Engineer for **integrating broadcast.com's Windows systems with Yahoo’s Unix systems** post-acquisition.
 *  _Request Radio_ was an ambitious Yahoo! Music skunkworks project to create personalized streaming media music stations based on a library of every CD ever recorded. My team created automated CD ripping software that **encoded hundreds of thousands of songs** for _Yahoo! Launchcast_'s music library.
     * **Robotically control 200 disc CD ripper stations**.
     * Annotated tracks with metadata with **barcode scanners**, matching UPC codes to the CDDB entries of tracks while they were being transcoded.
     * Transcode raw `.WAV` files into a variety of different streaming formats.
-* Lead Engineer for **integrating broadcast.com's Windows systems with Yahoo’s Unix systems** post-acquisition.
 
 Skills: Microsoft stack, streaming audio/video, SQL Server, Oracle, FreeBSD
 
