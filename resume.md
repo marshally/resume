@@ -99,6 +99,8 @@ I returned to Yahoo in 2005 to manage a team of 10 engineers and designers creat
 * Persuading other business units to use our tech, even though they liked their old way of doing things.
 * Managing sprints to hit non-negotiable dates set by external events (sports, space shuttle launches, etc.)
 
+Skills: PHP, Flash, Streaming Video, Scrum
+
 ### Software Architect at Cost Effective Marketing
 > September 2004 - September 2005 (1 year 1 month)
 
