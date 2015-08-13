@@ -14,10 +14,11 @@ In my spare time, I am an amateur chef, lover of costume parties, and a licensed
 
 ## Expert Level Skills
 
-* Programming: Ruby on Rails
+* Programming: Ruby on Rails, TDD
 * DevOps: Docker, Ansible, Chef, bash
 * Databases: MySQL, MongoDB, Redis, memcached, Membase
 * Process: Scrum, agile, kanban
+* Servers: nginx, apache
 
 ## Experience
 
