@@ -100,9 +100,9 @@ At DDDS, I built a web application designed to work side-by-side with their exis
 
 I returned to Yahoo in 2005 to manage a team of 10 engineers and designers creating the Universal Media Player 2.0 (UMP). The UMP empowered diverse Yahoo! business units to deploy video assets in standardized, with very little code. Responsibilities as the **first ScrumMaster in Yahoo's Dallas office** included:  
 
-* Building an team culture supportive of innovation and cross-group collaboration.
+* Building n team culture supportive of innovation and cross-group collaboration.
 * Persuading other business units to use our tech, even though they liked their old way of doing things.
-* Managing sprints to hit non-negotiable dates set by external events (sports, space shuttle launches, etc.)
+* Managing sprints to hit non-negotiable dates set by external events (sports, space shuttle launches, etc).
 
 **Skills:** PHP, Flash, Streaming Video, Oracle, Scrum, FreeBSD
 
